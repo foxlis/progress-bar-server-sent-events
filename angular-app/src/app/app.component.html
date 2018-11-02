@@ -1,0 +1,12 @@
+<mat-card>
+  <button mat-raised-button (click)="upload()">Start upload</button>
+  <br/>
+  <br/>
+  <mat-progress-bar
+    mode="determinate"
+    [value]=progress
+    *ngIf="progress > 0">
+  </mat-progress-bar>
+</mat-card>
+
+
